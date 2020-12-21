@@ -1,0 +1,42 @@
+.tab-list {
+  border-bottom: 1px solid rgb(85, 85, 85);
+  padding-left: 0;
+}
+
+.canvast {
+  width: 1000px !important;
+  height: 600px !important;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  color: white;
+}
+
+.tab-list-active {
+  background-color: black;
+  border-top: solid rgb(38, 192, 38) 2px;
+  border-left: solid rgb(85, 85, 85);
+  border-right: solid rgb(85, 85, 85);
+  border-width: 1px 1px 0 1px;
+  color: white;
+}
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
